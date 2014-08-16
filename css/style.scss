@@ -29,6 +29,12 @@ a{
 a:hover{
     color: $lightpurple;
 }
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+// HEADER and navigation style
 header{
     padding-top: 6em; padding-bottom: 6em;
     background-color: $lightestpurple;
@@ -48,14 +54,48 @@ nav {
     }
 }
 
-li {
-    list-style: none;
-    display: inline-block;
+// MAIN
+main {
+    width: 100%;
+    padding: 30px;
 }
+
+
+
 footer{
     padding: 40px 20px 40px 20px;
     p {
         font-size: 0.8em;
         line-height: 1.6em;
+    }
+}
+.socialmedia{
+    li{
+        padding: 10px;
+    }
+}
+
+// Twitter Feed Style
+#twitterlink{
+    padding-top:20px;
+    //padding-bottom:30px;
+    display: inline-block;
+    width: 100%;
+}
+.twitterfeedtest{
+    width: 620px;
+    margin: 0 auto;
+    text-align: center;
+}
+.tweet{
+    display: inline-block;
+    margin-top: 30px;
+    width:500px;
+    border: 2px solid #574c8d;
+    border-radius:10px;
+    padding:20px 60px 30px 60px;
+    h3{
+        font-size: 0.8em;
+        padding: 10px;
     }
 }
