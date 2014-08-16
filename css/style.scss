@@ -1,0 +1,61 @@
+// Matthew Tso 2014.
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+//COLORS
+$purple : #574c8d;
+$lightpurple : #a7a2c3;
+$lightestpurple : #DDDCE8;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    color: $purple;
+    width: 100%;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-size: 12pt;
+}
+p{
+    font-size: 15pt;
+}
+a{
+    color: $purple;
+}
+
+a:hover{
+    color: $lightpurple;
+}
+header{
+    padding-top: 6em; padding-bottom: 6em;
+    background-color: $lightestpurple;
+    display: inline-block;
+    width: 100%;
+}
+#logo {
+    display: inline-block;
+    padding-bottom: 2em;
+}
+nav {
+    display: block;
+    a {
+        text-decoration: none;
+        color: $purple;
+        padding: 1em;
+    }
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+footer{
+    padding: 40px 20px 40px 20px;
+    p {
+        font-size: 0.8em;
+        line-height: 1.6em;
+    }
+}
