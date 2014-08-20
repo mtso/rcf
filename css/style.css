@@ -5,7 +5,7 @@
   text-align: center; }
 
 body {
-  color: #574c8d;
+  color: #004d9d;
   width: 100%;
   font-family: 'Montserrat', 'Arial', sans-serif;
   font-size: 12pt; }
@@ -14,10 +14,10 @@ p {
   font-size: 15pt; }
 
 a {
-  color: #574c8d; }
+  color: #004d9d; }
 
 a:hover {
-  color: #a7a2c3; }
+  color: #ccccd6; }
 
 li {
   list-style: none;
@@ -35,7 +35,7 @@ img {
 header {
   padding-top: 6em;
   padding-bottom: 6em;
-  background-color: #dddce8;
+  background-color: #e2e3e8;
   display: inline-block;
   width: 100%; }
 
@@ -50,7 +50,7 @@ nav {
   display: block; }
   nav a {
     text-decoration: none;
-    color: #574c8d;
+    color: #004d9d;
     padding: 1em; }
 
 main {
@@ -72,7 +72,7 @@ main {
     line-height: 1.3em; }
   main .post {
     border-radius: 10px;
-    border: 2px solid #a7a2c3;
+    border: 2px solid #ccccd6;
     padding: 40px;
     margin: 20px; }
     main .post h1 {
@@ -81,7 +81,7 @@ main {
 #successmessage {
   text-align: center;
   border-radius: 10px;
-  border: 2px solid #a7a2c3;
+  border: 2px solid #ccccd6;
   padding: 40px;
   margin: 20px; }
 
@@ -110,7 +110,7 @@ footer {
   display: inline-block;
   margin-top: 30px;
   width: 500px;
-  border: 2px solid #a7a2c3;
+  border: 2px solid #ccccd6;
   border-radius: 10px;
   padding: 20px 60px 30px 60px;
   opacity: 0.6; }
@@ -122,7 +122,7 @@ footer {
     text-align: center; }
 
 .tweet:nth-of-type(1) {
-  border-color: #574c8d;
+  border-color: #004d9d;
   opacity: 1.0; }
 
 #contact {
@@ -141,21 +141,21 @@ footer {
     padding: 10px;
     margin: 20px 10px;
     width: 240px;
-    background-color: #dddce8;
+    background-color: #e2e3e8;
     border: 2px solid #fff;
     border-radius: 10px;
     outline: none;
-    color: #574c8d;
+    color: #004d9d;
     font-size: 13pt;
     font-family: 'Montserrat', 'Arial', sans-serif; }
   #contact input:focus {
-    border: 2px solid #574c8d;
+    border: 2px solid #004d9d;
     outline: none;
     background-color: #fff; }
   #contact input[type="submit"]:hover {
-    background-color: #a7a2c3; }
+    background-color: #ccccd6; }
   #contact input[type="submit"]:over {
-    background-color: #574c8d;
+    background-color: #004d9d;
     color: #fff; }
   #contact textarea {
     text-align: left;
@@ -164,16 +164,16 @@ footer {
     max-width: 600px;
     max-height: 800px;
     padding: 10px;
-    background-color: #dddce8;
+    background-color: #e2e3e8;
     border: 2px solid #fff;
     border-radius: 10px;
     outline: none;
     margin-left: 10px;
-    color: #574c8d;
+    color: #004d9d;
     font-size: 13pt;
     font-family: 'Montserrat', 'Arial', sans-serif; }
   #contact textarea:focus {
-    border: 2px solid #574c8d;
+    border: 2px solid #004d9d;
     outline: none;
     background-color: #fff; }
   #contact #submit {
