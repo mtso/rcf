@@ -6,7 +6,7 @@
     </head>
     <body>
         <header>
-            <span id="logo"><a href="index.php"><img src="img/rcf-logo.svg" /></a></span>
+            <span id="logo"><a href="index.php"><img src="img/rcf-logo-blue.svg" /></a></span>
             <nav>
                 <ul>
                     <li><a href="index.php">News</a></li>
